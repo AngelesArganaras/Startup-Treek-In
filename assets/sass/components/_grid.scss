@@ -1,5 +1,3 @@
-/* Grid */
-/* Container */
 @media (min-width: 768px) {
     .container {
       width: 750px;
@@ -22,7 +20,7 @@
     }
   }
   
-  /* Row */
+
   .row {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -36,7 +34,7 @@
     }
   }
   
-  /* Columns xs*/
+ 
   .col-xs-12 {
     grid-column: span 12;
   }
@@ -74,7 +72,7 @@
     grid-column: span 1;
   }
   
-  /* Columns sm*/
+ 
   @media (min-width: 768px) {
     .col-sm-12 {
       grid-column: span 12;
@@ -114,7 +112,7 @@
     }
   }
   
-  /* Columns md*/
+
   @media (min-width: 992px) {
     .col-md-12 {
       grid-column: span 12;
@@ -154,7 +152,7 @@
     }
   }
   
-  /* Columns lg*/
+ 
   @media (min-width: 1200px) {
     .col-lg-12 {
       grid-column: span 12;

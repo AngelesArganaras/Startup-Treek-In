@@ -1,32 +1,6 @@
 @charset "UTF-8";
-/*!
- * Bootstrap v4.4.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
 :root {
-  --blue: #007bff;
-  --indigo: #6610f2;
-  --purple: #6f42c1;
-  --pink: #e83e8c;
-  --red: #dc3545;
-  --orange: #fd7e14;
-  --yellow: #ffc107;
-  --green: #28a745;
-  --teal: #20c997;
-  --cyan: #17a2b8;
-  --white: #FFF;
-  --gray: #6c757d;
-  --gray-dark: #343a40;
-  --primary: #007bff;
-  --secondary: #6c757d;
-  --success: #28a745;
-  --info: #17a2b8;
-  --warning: #ffc107;
-  --danger: #dc3545;
-  --light: #f8f9fa;
-  --dark: #343a40;
+
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -82,21 +56,6 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-}
-
-abbr[title],
-abbr[data-original-title] {
-  text-decoration: underline;
-  text-decoration: underline dotted;
-  cursor: help;
-  border-bottom: 0;
-  text-decoration-skip-ink: none;
-}
-
-address {
-  margin-bottom: 1rem;
-  font-style: normal;
-  line-height: inherit;
 }
 
 ol,
@@ -9740,18 +9699,6 @@ a.text-dark:hover, a.text-dark:focus {
   color: #212529 !important;
 }
 
-.text-muted {
-  color: #6c757d !important;
-}
-
-.text-black-50 {
-  color: rgba(0, 0, 0, 0.5) !important;
-}
-
-.text-white-50 {
-  color: rgba(255, 255, 255, 0.5) !important;
-}
-
 .text-hide {
   font: 0/0 a;
   color: transparent;
@@ -9762,15 +9709,6 @@ a.text-dark:hover, a.text-dark:focus {
 
 .text-decoration-none {
   text-decoration: none !important;
-}
-
-.text-break {
-  word-break: break-word !important;
-  overflow-wrap: break-word !important;
-}
-
-.text-reset {
-  color: inherit !important;
 }
 
 .visible {
@@ -9789,29 +9727,6 @@ a.text-dark:hover, a.text-dark:focus {
     box-shadow: none !important;
   }
 
-  a:not(.btn) {
-    text-decoration: underline;
-  }
-
-  abbr[title]::after {
-    content: " (" attr(title) ")";
-  }
-
-  pre {
-    white-space: pre-wrap !important;
-  }
-
-  pre,
-blockquote {
-    border: 1px solid #adb5bd;
-    page-break-inside: avoid;
-  }
-
-  thead {
-    display: table-header-group;
-  }
-
-  tr,
 img {
     page-break-inside: avoid;
   }
@@ -9843,37 +9758,7 @@ h3 {
     display: none;
   }
 
-  .badge {
-    border: 1px solid #000;
-  }
-
-  .table {
-    border-collapse: collapse !important;
-  }
-  .table td,
-.table th {
-    background-color: #FFF !important;
-  }
-
-  .table-bordered th,
-.table-bordered td {
-    border: 1px solid #dee2e6 !important;
-  }
-
-  .table-dark {
-    color: inherit;
-  }
-  .table-dark th,
-.table-dark td,
-.table-dark thead th,
-.table-dark tbody + tbody {
-    border-color: #dee2e6;
-  }
-
-  .table .thead-dark th {
-    color: inherit;
-    border-color: #dee2e6;
-  }
+  
 }
 * {
   margin: 0;
@@ -9972,25 +9857,6 @@ nav {
 }
 
 header {
-  /*background-image: url(../img/bg-hero.svg);
-  background-size: contain;
-  height: 1000px;
-  background-repeat: no-repeat;
-
-  margin-top: 5vw;
-
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-
-  @media (max-width: 576px) {    
-      grid-template-columns: 100%;       
-  }
-
-   2 veces comentado /*object{
-      @media (min-width: 576px){
-      display: none;
-  }
-  }  */
   grid-template-columns: 100%;
   margin-top: 5vw;
 }
@@ -10058,21 +9924,8 @@ section h2 {
   animation: desvanecer 3s ease-in-out 0s infinite;
 }
 
-/*
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-left: 10vw;
-    margin-right: 10vw;
-
-
-}*/
 .prices {
-  /*background-image: url(../img/bg-price.svg);
-  background-size: cover;
-
-  background-repeat: no-repeat;
-  padding-top: 15vw;*/
+  
   background-color: #333745;
   position: relative;
 }
@@ -10106,18 +9959,12 @@ section h2 {
   margin-left: 1.5vw;
 }
 
-.card:hover {
-  box-shadow: 1rem 1rem 2rem #726F73;
-}
-
 .boton-bajo {
   margin-top: 110px;
 }
 
 footer {
-  /*display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;*/
+  
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: #221D23;
@@ -10160,6 +10007,7 @@ footer p {
   padding: 0.5rem;
   background-color: #2AB7CA;
   color: #FFF;
+  font-weight: bold;
 }
 
 .card__button {
