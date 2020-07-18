@@ -1,0 +1,24 @@
+.prices {
+    background-color: $onyx;
+    position: relative;
+}
+
+.prices::before {
+    content: "";
+    position: absolute;
+    top: -25%;
+    left: 0;
+    height: 200px;
+    width: 140%;
+    background: url(../img/bg-price.svg);
+    background-size: 100%;
+    z-index: -1;
+
+    @media (max-width: 576px) { 
+        top: -15%;
+       
+    }
+  }
+
+
+

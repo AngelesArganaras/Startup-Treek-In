@@ -1,0 +1,17 @@
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+@import 'base/base';
+@import 'base/reset';
+@import 'base/typography';
+
+
+@import 'layout/navigation';
+@import 'layout/header';
+@import 'layout/caracteristicas';
+@import 'layout/prices';
+@import 'layout/footer';
+
+@import 'components/buttons';
+@import 'components/cards';
+@import 'components/grid';

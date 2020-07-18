@@ -1,0 +1,52 @@
+body {
+    font-family: $raleway;
+}
+
+p {
+    font-size: $medium;
+    font-family: $open-sans;    
+}
+
+nav a {
+    color: $onyx;    
+}
+
+.nav__button {
+    font-weight: $bold;
+}
+
+header h1 {
+    font-weight: $bold;
+    font-size: $xxxxx-large;    
+}
+
+section h2, h3 {
+    font-weight: $bold;
+
+}
+
+section h2 { 
+    font-size: $xxx-large;
+    
+}
+
+.contenido-prices h2 {
+    
+        color: $white;
+        font-size: $xxx-large;
+}
+
+.contenido-prices h5 {
+        font-weight: $bold;
+        font-size: $xx-large;
+}
+
+.contenido-prices h6{
+        font-size: $large;
+    
+}
+
+footer a, p {
+    color: $white;
+   
+}

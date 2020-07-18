@@ -1,0 +1,16 @@
+.contenedor-card {   
+
+    justify-content: space-evenly;
+   
+   display: flex;
+   flex-wrap: wrap;
+
+   .card {
+       margin-bottom: 3vw;
+       ul {
+           margin-left: 1.5vw;
+       }
+   }
+    
+
+}

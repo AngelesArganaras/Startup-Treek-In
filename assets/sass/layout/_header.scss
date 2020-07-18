@@ -1,0 +1,29 @@
+header{
+   
+    @media (min-width: 576px){
+    background-image: url(../img/bg-hero.svg);
+    background-size: contain;
+    height: 60vw;
+    background-repeat: no-repeat;
+
+    margin-top: 5vw;
+   
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   
+    object{
+        display: none;
+    }
+    }
+    grid-template-columns: 100%;   
+    margin-top: 5vw;    
+
+    
+    
+    }  
+
+
+.hero-section{  
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
